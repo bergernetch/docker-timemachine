@@ -11,7 +11,8 @@ docker image to run Samba or AFP (netatalk) to provide a compatible Time Machine
 _Warning_: I would strongly suggest migrating to the SMB image as AFP is being deprecated by Apple.  I do not plan on adding any new features to the AFP based config.
 
 To pull this image:
-`docker pull grizmin/timemachine`
+* Samba version: `docker pull grizmin/timemachine:smb.latest`
+* AFP version: `docker pull grizmin/timemachine`
 
 ## Example docker-compose usage for SMB
 
